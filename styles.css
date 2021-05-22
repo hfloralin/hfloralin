@@ -4,6 +4,7 @@ header {
   font-weight: normal;
   font-size: 2.25rem;
   color: #464646;
+  margin-left: 3rem;
 }
 
 h1, h2, h3, a, li, p {
@@ -11,14 +12,19 @@ h1, h2, h3, a, li, p {
 }
 
 ul {
+  font-size: 1.5rem;
   list-style-type: none;
-  margin: 0;
   padding: 4.5rem;
   display: inline;
   position: fixed;
-  width: 100%;
 }
 
 li {
   float: right;
+}
+
+nav {
+  margin-top: 1.5rem;
+
+
 }
