@@ -9,6 +9,7 @@ Nice to e-meet you! I'm a computing student specializing in cognitive science an
 - 🎨 I'm passionate about creating intuitive and beautiful experiences in product design
 - 🔭 I love exploring the applciations of technology in fields like psychology and linguistics
 - 🌱 I’m currently learning about conversational design and NLP models
-- 💬 Ask me about latte art or travel adventures!
 - 🦉 Fun fact: I have a 50 day streak in Duolingo
+
+- 💬 Ask me about latte art or travel adventures!
 - 📫 Find me on [Linkedin](https://www.linkedin.com/in/~flora/)!
