@@ -1,4 +1,4 @@
-# hey, i'm flora 🌻
+# 🌻 hey, i'm flora
 
 <!--
 **hfloralin/hfloralin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
