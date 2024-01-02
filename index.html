@@ -1,95 +1,68 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Flora Lin</title>
-
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Name - Personal Website</title>
 </head>
 <body>
-  <nav>
-    <ul class="navleft">
-      <li class="namelink"><a href="index.html">flora lin</a></li>
-    </ul>
-    <ul class="navright">
-      <li><a href="index.html">work</a></li>
-      <li><a href="about.html">about</a></li>
-      <li><a href="fun.html">fun</a></li>
-      <li><a href="https://bit.ly/2RxcBiT">resume</a></li>
-    </ul>
-  </nav>
-  <!-- desciption -->
-  <section class="description">
-    <p>Hi! I'm Flora, a product designer and web developer based in Toronto and
-      Kingston, ON. Currently studying cognitive science at
-      <a target="_blank" href="queensu.ca">Queen's University</a></p>
-      <p>Selected Works</p>
+
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Web Developer | UX Designer</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my personal website! I am a passionate web developer and UX designer. 
+                This is a space where I showcase my work and share my thoughts on the latest trends in the industry.
+            </p>
+        </div>
     </section>
-    <!-- project -->
+
     <section class="projects">
-
-      <!-- WeWalk -->
-      <div class="wewalk project-card">
-        <div class="project-brief">
-          <p class="subheading">Designathon Challenge, UX Design</p>
-          <h1 class="project-title">WeWalk</h1>
-          <p class="project-description">Providing community support for the
-            Asian community in light of surge in hate crimes.</p>
-            <a href="wewalk.html"><button type="button" class="view-project">View Project </button></a>
-          </div>
-          <img src="" alt="WeWalk Project Card">
+        <div class="container">
+            <h2>My Projects</h2>
+            <!-- Add your project details here -->
+            <div class="project">
+                <h3>Project Name</h3>
+                <p>Description of the project.</p>
+            </div>
+            <!-- Add more projects as needed -->
         </div>
+    </section>
 
-        <!-- inQUbate -->
-        <div class="inQUbate project-card">
-          <div class="project-brief">
-            <p class="subheading">Student Organization</p>
-            <h1 class="project-title">inQUbate</h1>
-            <p class="project-description">Building a brand for Canada's first
-              student-run AI incubator.</p>
-            <a href="inqubate.html"><button type="button" class="view-project">View Project </button></a>
-          </div>
-          <img src="" alt="inQUbate Project Card">
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out!</p>
+            <!-- Add your contact form or information here -->
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
         </div>
+    </section>
 
-        <!-- HT6 -->
-        <div class="Hack The 6ix project-card">
-          <div class="project-brief">
-            <p class="subheading">Student Organization</p>
-            <h1 class="project-title">Hack The 6ix</h1>
-            <p class="project-description">Designing the largest summer student-run,
-              not-for-profit hackathon based in Toronto. </p>
-            <a href="hackthe6ix.html"><button type="button" class="view-project">View Project </button></a>
-          </div>
-          <img src="" alt="Hack The 6ix Project Card">
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Name</p>
         </div>
+    </footer>
 
-        <!-- Coffee Clock -->
-        <div class="Coffee Clock project-card">
-          <div class="project-brief">
-            <p class="subheading">Human-Computer Interaction Project</p>
-            <h1 class="project-title">Coffee Clock</h1>
-            <p class="project-description">Visualizing caffeine consumption to
-              encourage healthier sleep habits.</p>
-            <a href="coffeeclock.html"><button type="button" disabled class="view-project" id="coffeeclock-btn">Coming Soon!</button></a>
-          </div>
-          <img src="" alt="Hack The 6ix Project Card">
-        </div>
-      </section>
-
-      <footer>
-        <h2>Let's Connect</h2>
-        <p>Feel free to reach out at <a href="mailto:flora.lin@queensu.ca">
-          flora.lin@queensu.ca</a> and stay connected with me.
-          I'm always down for a coffee and a nice chat!</p>
-        <div class="connect-links">
-          <a href="mailto:flora.lin@queensu.ca"></a>
-          <a href="https://bit.ly/2RxcBiT">Resume</a>
-          <a href="linkedin.com/in/flora-l/">LinkedIn</a>
-        </div>
-
-        </footer>
-      </body>
-      </html>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,32 +1,13 @@
-header {
-  font-family: "Poppins", sans-serif;
-  font-size: 2.25rem;
-  color: #464646;
-  margin-left: 3rem;
-}
-
-h1, h2, h3, a, li, p {
-  font-family: "Avenir", sans-serif;
-}
-
-ul {
-  list-style-type: none;
-  display: inline;
-  position: fixed;
-}
-
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  padding-left: 4.5rem;
-  color: #464646;
-  font-size: 1.5rem;
-}
-
-
-nav {
-  margin-top: 1.5rem;
-}
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
