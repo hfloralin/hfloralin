@@ -8,5 +8,3 @@ Currently designing and building conversational AI at PolyAI :)
 
 - 🌱 Queen's U alum -- B.Comp, Cognitive Science and B.A Linguistics
 - 💃 prev. at the intersection of design, engineering and strategy at Meta, Deloitte, and IBM
-
-- 📫 Find me on [Linkedin](https://www.linkedin.com/in/flora-l/)!
